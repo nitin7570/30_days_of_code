@@ -26,5 +26,6 @@ def find_consecutive_num(n):
     return (max(map(len, number_string.split('0'))))
     
 if __name__ == '__main__':
-    print(find_consecutive_num(13))
+    n = int(input().strip())
+    print(find_consecutive_num(n))
     
